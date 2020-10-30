@@ -1,0 +1,131 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="14.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{351BBF01-4541-4382-AC5A-700D18B5AD27}</ProjectGuid>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Dragon.Model</RootNamespace>
+    <AssemblyName>Dragon.Model</AssemblyName>
+    <TargetFrameworkVersion>v4.6</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <TargetFrameworkProfile />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Base\BizPage.cs" />
+    <Compile Include="Base\JavaModel.cs" />
+    <Compile Include="Base\Paging.cs" />
+    <Compile Include="Base\RequestView.cs" />
+    <Compile Include="Base\ResultView.cs" />
+    <Compile Include="BizContext\BizDcAbout.cs" />
+    <Compile Include="BizContext\BizDcadvertise.cs" />
+    <Compile Include="BizContext\BizDcAnnex.cs" />
+    <Compile Include="BizContext\BizDcbanner.cs" />
+    <Compile Include="BizContext\BizDcComment.cs" />
+    <Compile Include="BizContext\BizDcHoliday.cs" />
+    <Compile Include="BizContext\BizDcHolidayAnnex.cs" />
+    <Compile Include="BizContext\BizDcjob.cs" />
+    <Compile Include="BizContext\BizDcMoving.cs" />
+    <Compile Include="BizContext\BizDcproducts.cs" />
+    <Compile Include="BizContext\BizDcResumeAdditional.cs" />
+    <Compile Include="BizContext\BizDcResumeAttach.cs" />
+    <Compile Include="BizContext\BizDcResumeEducate.cs" />
+    <Compile Include="BizContext\BizDcResumeGuide.cs" />
+    <Compile Include="BizContext\BizDcResumeGuideFamily.cs" />
+    <Compile Include="BizContext\BizDcResumeSchoolingDocuments.cs" />
+    <Compile Include="BizContext\BizDcResumeWorkexperience.cs" />
+    <Compile Include="BizContext\BizDcSMSSend.cs" />
+    <Compile Include="BizContext\BizDcSMSTemplate.cs" />
+    <Compile Include="BizContext\BizDcSummarize.cs" />
+    <Compile Include="BizContext\BizDcUserlog.cs" />
+    <Compile Include="BizContext\BizDcWorkplan.cs" />
+    <Compile Include="BizContext\BizDcWorkplanDetail.cs" />
+    <Compile Include="BizContext\BizHrdepartments.cs" />
+    <Compile Include="BizContext\BizHrDuty.cs" />
+    <Compile Include="BizContext\BizHremployees.cs" />
+    <Compile Include="BizContext\BizHrgzrz.cs" />
+    <Compile Include="BizContext\BizHrPerformancescoreFile.cs" />
+    <Compile Include="BizContext\BizHrqjjl.cs" />
+    <Compile Include="BizContext\BizHrWorkplan.cs" />
+    <Compile Include="BizContext\BizHrWorkplanDetail.cs" />
+    <Compile Include="BizContext\BizHrWorksummary.cs" />
+    <Compile Include="BizContext\BizHrWorksummaryTemp.cs" />
+    <Compile Include="BizContext\BizPrivilege.cs" />
+    <Compile Include="BizContext\BizPrvusers.cs" />
+    <Compile Include="DBContext\dcAbout.cs" />
+    <Compile Include="DBContext\dcadvertise.cs" />
+    <Compile Include="DBContext\dcAnnex.cs" />
+    <Compile Include="DBContext\dcbanner.cs" />
+    <Compile Include="DBContext\dcjob.cs" />
+    <Compile Include="DBContext\dcMoving.cs" />
+    <Compile Include="DBContext\dcproducts.cs" />
+    <Compile Include="DBContext\dc_comment.cs" />
+    <Compile Include="DBContext\dc_holiday.cs" />
+    <Compile Include="DBContext\dc_holiday_annex.cs" />
+    <Compile Include="DBContext\dc_resume_additional.cs" />
+    <Compile Include="DBContext\dc_resume_attach.cs" />
+    <Compile Include="DBContext\dc_resume_educate.cs" />
+    <Compile Include="DBContext\dc_resume_guide.cs" />
+    <Compile Include="DBContext\dc_resume_guide_family.cs" />
+    <Compile Include="DBContext\dc_resume_schooling_documents.cs" />
+    <Compile Include="DBContext\dc_resume_workexperience.cs" />
+    <Compile Include="DBContext\dc_SMS_send.cs" />
+    <Compile Include="DBContext\dc_SMS_template.cs" />
+    <Compile Include="DBContext\dc_summarize.cs" />
+    <Compile Include="DBContext\dc_userlog.cs" />
+    <Compile Include="DBContext\dc_workplan.cs" />
+    <Compile Include="DBContext\dc_workplan_detail.cs" />
+    <Compile Include="DBContext\hrdepartments.cs" />
+    <Compile Include="DBContext\hremployees.cs" />
+    <Compile Include="DBContext\hrgzrz.cs" />
+    <Compile Include="DBContext\hrqjjl.cs" />
+    <Compile Include="DBContext\hr_duty.cs" />
+    <Compile Include="DBContext\hr_performancescore_file.cs" />
+    <Compile Include="DBContext\hr_workplan.cs" />
+    <Compile Include="DBContext\hr_workplan_detail.cs" />
+    <Compile Include="DBContext\hr_worksummary.cs" />
+    <Compile Include="DBContext\hr_worksummary_temp.cs" />
+    <Compile Include="DBContext\privilege.cs" />
+    <Compile Include="DBContext\prvusers.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup />
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,11 @@
+//调用或者动态生成就可以使用
+BulidCode        代码底层代码生成
+DLL                   第三方dll存放
+Dragon.Core    公用工具类
+Dragon.Data    数据仓库
+Dragon.Model  model类
+
+//需要操作的层
+Dragon.Service  业务逻辑操作层 
+Dragon.Web  web网站
+

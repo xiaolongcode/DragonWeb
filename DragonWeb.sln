@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29911.84
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BulidCode", "BulidCode\BulidCode.csproj", "{5DCDE9C8-1FFF-4A90-B108-72F5EE218455}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon.Core", "Dragon.Core\Dragon.Core.csproj", "{997323DF-C5FB-47EB-9E47-8DD9F63972D6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon.Model", "Dragon.Model\Dragon.Model.csproj", "{351BBF01-4541-4382-AC5A-700D18B5AD27}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon.Service", "Dragon.Service\Dragon.Service.csproj", "{B01790FA-9807-4FA9-9C30-93DC92368B6A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon.Web", "Dragon.Web\Dragon.Web\Dragon.Web.csproj", "{30B2A7C0-A63D-4C6A-98B0-8AD7F8037408}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dragon.WebAPI", "Dragon.WebAPI\Dragon.WebAPI\Dragon.WebAPI.csproj", "{4E5CB874-35FA-4533-A53D-63DAABDEE54E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5DCDE9C8-1FFF-4A90-B108-72F5EE218455}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DCDE9C8-1FFF-4A90-B108-72F5EE218455}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DCDE9C8-1FFF-4A90-B108-72F5EE218455}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DCDE9C8-1FFF-4A90-B108-72F5EE218455}.Release|Any CPU.Build.0 = Release|Any CPU
+		{997323DF-C5FB-47EB-9E47-8DD9F63972D6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{997323DF-C5FB-47EB-9E47-8DD9F63972D6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{997323DF-C5FB-47EB-9E47-8DD9F63972D6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{997323DF-C5FB-47EB-9E47-8DD9F63972D6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{351BBF01-4541-4382-AC5A-700D18B5AD27}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{351BBF01-4541-4382-AC5A-700D18B5AD27}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{351BBF01-4541-4382-AC5A-700D18B5AD27}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{351BBF01-4541-4382-AC5A-700D18B5AD27}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B01790FA-9807-4FA9-9C30-93DC92368B6A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B01790FA-9807-4FA9-9C30-93DC92368B6A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B01790FA-9807-4FA9-9C30-93DC92368B6A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B01790FA-9807-4FA9-9C30-93DC92368B6A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30B2A7C0-A63D-4C6A-98B0-8AD7F8037408}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30B2A7C0-A63D-4C6A-98B0-8AD7F8037408}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30B2A7C0-A63D-4C6A-98B0-8AD7F8037408}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30B2A7C0-A63D-4C6A-98B0-8AD7F8037408}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E5CB874-35FA-4533-A53D-63DAABDEE54E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E5CB874-35FA-4533-A53D-63DAABDEE54E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E5CB874-35FA-4533-A53D-63DAABDEE54E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E5CB874-35FA-4533-A53D-63DAABDEE54E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {4204F92D-B501-4238-8718-F609880C528F}
+	EndGlobalSection
+EndGlobal
