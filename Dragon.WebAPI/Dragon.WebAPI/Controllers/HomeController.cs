@@ -27,9 +27,9 @@ namespace Dragon.WebAPI.Controllers
                 dc_resume_guide Request = JsonHelper.ConvertToObject<dc_resume_guide>(RequestModel.Info);
                 #endregion
                 #region 操作数据
-                DcResumeGuideRepository dr = new DcResumeGuideRepository();
-                List<dc_resume_guide> list = new List<dc_resume_guide>();
-                list = dr.SearchAllList();
+                DcUserlogRepository dr = new DcUserlogRepository();
+                List<dc_userlog> list = new List<dc_userlog>();
+                list = dr.SearchList(null);
                 #endregion
                 string ResultJson = JsonHelper.ConvertToJosnString(list);
                 return new ResultView { Info = ResultJson, Result = 1, ResultMessage = "执行成功" };
@@ -56,9 +56,9 @@ namespace Dragon.WebAPI.Controllers
                 #endregion
 
                 #region 操作数据
-                DcResumeGuideRepository dr = new DcResumeGuideRepository();
-                List<dc_resume_guide> list = new List<dc_resume_guide>();
-                list = dr.SearchAllList();
+                DcUserlogRepository dr = new DcUserlogRepository();
+                List<dc_userlog> list = new List<dc_userlog>();
+                list = dr.SearchList(null);
                 #endregion
                 string ResultJson = JsonHelper.ConvertToJosnString(list);
                 return new ResultView { Info = ResultJson, Result = 1, ResultMessage = "执行成功" };
